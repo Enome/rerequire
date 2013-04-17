@@ -5,7 +5,7 @@ Dependency injection for Node.js modules. This module works the same as require 
 ```js
 var rerequire = require('rerequire');
 
-rerequire(/* file to module you want to test */, /* module mocks */, /* global mocks */);
+rerequire(/* path to module you want to test */, /* module mocks */, /* global mocks */);
 ```
 
 ## Example
